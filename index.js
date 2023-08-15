@@ -105,6 +105,7 @@ const getInput = (e) =>{
   if (estaVacio()) {
     alertError.innerText = "*Ingrese un ID";
     alertError.classList.remove("alertErrorNone");
+    printItem.innerText="";
     return;
   }
   if(alertError.innerText === "*Ingrese un ID"){
@@ -120,6 +121,7 @@ const getInput = (e) =>{
     localStorage.clear();
   }else{
     alertError.classList.remove("alertErrorNone");
+    printItem.innerText="";
   }
 
 
