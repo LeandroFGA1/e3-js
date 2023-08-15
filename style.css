@@ -1,0 +1,91 @@
+body{
+    top: 0px;
+    bottom: 0px;
+    text-align: center;
+    height: 100vh;
+    background-image: url(./img/fondo.png);
+    background-repeat: repeat;
+    background-size: 400px;
+}
+
+
+button{
+    background-color: grey;
+}
+
+form > span{
+    margin-left: -70px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenido{
+    background-color: bisque;
+    border-color: brown;
+    border-width: 10px;
+    padding: 5px;
+    border-style:solid;
+    margin-top: -15px;
+}
+form{
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.printZone{
+    background-color: beige;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: brown;
+}
+
+#printContainer{
+    margin-top: -5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: url(./img/patronMesa.jpg);
+    width: 90%;
+    height: 350px;
+    border-color: brown;
+    border-width: 10px;
+    border-style:solid;
+}
+
+.card{
+    display: flex;
+    width: 90%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.containerListCard{
+    padding-left: 40px;
+}
+.listCard{
+    margin-left: -10px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    list-style: none;
+}
+.imgCard{
+    width: 300px;
+    border-radius: 100%;
+}
+
+#mySpan{
+    margin-left:2px;
+    margin-top: 1px;
+    color: red;
+}
+
+.alertErrorNone{
+    visibility:hidden;
+}
